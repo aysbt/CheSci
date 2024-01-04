@@ -1,7 +1,9 @@
 # Author: Ayse Bat
-# source :https://github.com/AIT-WATCHMAN/WMUtils/blob/master/ratMacros/sourceCalOptimize/calSourceOpt.py
+# source:https://github.com/AIT-WATCHMAN/WMUtils/blob/master/ratMacros/sourceCalOptimize/calSourceOpt.py
 # modifyed for the project
-# How to run:  python getFromRAT.py -f neutron_3m3m_174pmt_wbls.root -o Crenkov
+#computer memory is stuck when running all files and writing them to the CSV file. 
+#So I select the range of some data and print the result in CSV file as used below
+# How to run:  python getFromRAT.py -f root_file.root -n1 firstEvent -n2 lastEvent -o OutputName > Output.csv 
 from ROOT import TFile, AddressOf
 import rat
 import csv
