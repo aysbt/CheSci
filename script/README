@@ -1,0 +1,6 @@
+This container inclued with the file that you can root and .csv output with analyzer.C file
+*the program read the root file which is the output of Rat-Pac program.
+*How To work
+> root
+> .L analyzer.C+
+> analyzer("rootfile.root")
